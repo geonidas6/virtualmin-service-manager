@@ -40,6 +40,15 @@ virtualmin off     # Arrête et désactive tous les services
 virtualmin status  # Affiche l’état des services
 ```
 
+OU
+
+```bash
+./virtualmin.sh off   # Coupe et désactive tout
+./virtualmin.sh on    # Active et démarre tout
+./virtualmin.sh status  # Affiche uniquement l'état des services
+```
+
+
 ## 📜 Exemple de sortie
 
 ```text
