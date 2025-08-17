@@ -46,6 +46,10 @@ OU
 ./virtualmin.sh off   # Coupe et désactive tout
 ./virtualmin.sh on    # Active et démarre tout
 ./virtualmin.sh status  # Affiche uniquement l'état des services
+
+./virtualmin.sh off apache2 mariadb
+./virtualmin.sh on php8.2-fpm cloudflared
+./virtualmin.sh status postfix dovecot
 ```
 
 
